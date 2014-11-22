@@ -8,4 +8,8 @@ Author
 
 Huy T. Vo
 
+
+Contributors
+============
+
 Tuan-Anh Hoang-Vu
