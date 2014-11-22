@@ -18,9 +18,7 @@ Instruction
         * Don't add any step at this point
         * Cluster Auto-terminate: No
 
-2. Clone this repository and upload the neighborhoods and yearplot scripts to your bucket on S3.
-
-For example:
+2. Clone this repository and upload the neighborhoods and yearplot scripts to your bucket on S3. For example:
 
         * neighborhoods: s3://mda2014/neighborhoods
         * yearplot: s3://mda2014/yearplot
