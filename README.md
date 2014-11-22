@@ -32,9 +32,9 @@ Instruction
         * Output: s3://mda2014/output1
         * Arguments: -files s3://mda2014/neighborhoods/mapper.py,s3://mda2014/neighborhoods/reducer.py,s3://mda2014/neighborhoods/shapefile.py,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.prj,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp.xml,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shx,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.dbf
         
-Wait for finish, then download and merge all output into one file called `output.txt`
+    Wait for finish, then download and merge all output into one file called `output.txt`
 
-To generate plot, execute:
+    To generate plot, execute:
 
               python plot_results.py output.txt <location_of_output_plot>
 
@@ -46,9 +46,9 @@ To generate plot, execute:
         * Input: s3://mda2014/taxi/trip/
         * Output: s3://mda2014/output2
 
-Wait for finish, then download and merge all output into one file called `output.txt`
+    Wait for finish, then download and merge all output into one file called `output.txt`
 
-To generate plot, execute:
+    To generate plot, execute:
 
               python plot_results.py output.txt <location_of_output_plot>
               
