@@ -28,7 +28,6 @@ For example:
 3. To run neighborhoods script: Add the following streaming step to your cluster with the following information:
 
        Replace mda2014 with your bucket name, except in Input
-       
        * Mapper: s3://mda2014/neighborhoods/mapper.py
        * Reducer: s3://mda2014/neighborhoods/reducer.py
        * Input: s3://mda2014/taxi/trip/
@@ -38,7 +37,6 @@ For example:
 4. To run yearplot script: Add the following streaming step to your cluster with the following information:
 
        Replace mda2014 with your bucket name, except in Input
-       
        * Mapper: s3://mda2014/yearplot/mapper.py
        * Reducer: s3://mda2014/yearplot/reducer.py
        * Input: s3://mda2014/taxi/trip/
