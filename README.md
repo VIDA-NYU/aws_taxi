@@ -22,25 +22,25 @@ Instruction
 
 For example:
 
-       * neighborhoods: s3://mda2014/neighborhoods
-       * yearplot: s3://mda2014/yearplot
+        * neighborhoods: s3://mda2014/neighborhoods
+        * yearplot: s3://mda2014/yearplot
         
 3. To run neighborhoods script: Add the following streaming step to your cluster with the following information:
 
-       Replace mda2014 with your bucket name, except in Input
-       * Mapper: s3://mda2014/neighborhoods/mapper.py
-       * Reducer: s3://mda2014/neighborhoods/reducer.py
-       * Input: s3://mda2014/taxi/trip/
-       * Output: s3://mda2014/output1
-       * Arguments: -files s3://mda2014/neighborhoods/mapper.py,s3://mda2014/neighborhoods/reducer.py,s3://mda2014/neighborhoods/shapefile.py,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.prj,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp.xml,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shx,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.dbf
+        Replace mda2014 with your bucket name, except in Input
+        * Mapper: s3://mda2014/neighborhoods/mapper.py
+        * Reducer: s3://mda2014/neighborhoods/reducer.py
+        * Input: s3://mda2014/taxi/trip/
+        * Output: s3://mda2014/output1
+        * Arguments: -files s3://mda2014/neighborhoods/mapper.py,s3://mda2014/neighborhoods/reducer.py,s3://mda2014/neighborhoods/shapefile.py,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.prj,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp.xml,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shx,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.dbf
 
 4. To run yearplot script: Add the following streaming step to your cluster with the following information:
 
-       Replace mda2014 with your bucket name, except in Input
-       * Mapper: s3://mda2014/yearplot/mapper.py
-       * Reducer: s3://mda2014/yearplot/reducer.py
-       * Input: s3://mda2014/taxi/trip/
-       * Output: s3://mda2014/output2
+        Replace mda2014 with your bucket name, except in Input
+        * Mapper: s3://mda2014/yearplot/mapper.py
+        * Reducer: s3://mda2014/yearplot/reducer.py
+        * Input: s3://mda2014/taxi/trip/
+        * Output: s3://mda2014/output2
 
 5. Remember to terminate cluster after use.
 
