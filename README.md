@@ -36,7 +36,7 @@ Instruction
 
     To generate plot, execute:
 
-       python plot_results.py output.txt <location_of_output_plot>
+        python plot_results.py output.txt <location_of_output_plot>
 
 4. To run yearplot script: Add the following streaming step to your cluster with the following information:
 
@@ -50,7 +50,7 @@ Instruction
 
     To generate plot, execute:
 
-       python plot_results.py output.txt <location_of_output_plot>
+        python plot_results.py output.txt <location_of_output_plot>
               
 5. Remember to terminate cluster after use.
 
