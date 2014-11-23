@@ -6,7 +6,7 @@ Sample scripts to analyze taxi data on Amazon AWS
 Instruction
 -----------
 
-1. Create an Amazon EMR cluster with the following configuration:
+1. Create an Amazon EMR cluster with the following configuration (the bootstrap action is very important -- please pay attention to that):
 
         * Termination protection: Yes
         * Logging: Enabled (remember to input your S3 bucket to store log file)
