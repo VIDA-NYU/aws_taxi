@@ -57,10 +57,10 @@ Instruction
 Author
 ======
 
-Huy T. Vo
+[Huy T. Vo](http://serv.cusp.nyu.edu/~hvo/)
 
 
 Contributors
 ============
 
-Tuan-Anh Hoang-Vu
+[Tuan-Anh Hoang-Vu](http://bigdata.poly.edu/~tuananh/)
