@@ -30,7 +30,7 @@ Instruction
         * Reducer: s3://mda2014/neighborhoods/reducer.py
         * Input: s3://mda2014/taxi/trip/
         * Output: s3://mda2014/output1
-        * Arguments: -files s3://mda2014/neighborhoods/mapper.py,s3://mda2014/neighborhoods/reducer.py,s3://mda2014/neighborhoods/shapefile.py,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.prj,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp.xml,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shx,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.dbf
+        * Arguments: -D mapred.reduce.tasks=1 -files s3://mda2014/neighborhoods/mapper.py,s3://mda2014/neighborhoods/reducer.py,s3://mda2014/neighborhoods/shapefile.py,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.prj,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shp.xml,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.shx,s3://mda2014/neighborhoods/ZillowNeighborhoods-NY.dbf
         
     Wait for finish, then download and merge all output into one file called `output.txt`
 
@@ -45,6 +45,7 @@ Instruction
         * Reducer: s3://mda2014/yearplot/reducer.py
         * Input: s3://mda2014/taxi/trip/
         * Output: s3://mda2014/output2
+        * Arguments: -D mapred.reduce.tasks=1
 
     Wait for finish, then download and merge all output into one file called `output.txt`
 
