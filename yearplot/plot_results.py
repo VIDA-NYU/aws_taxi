@@ -11,6 +11,6 @@ if __name__=='__main__':
     fig = m_plot.figure(figsize=(11, 4))
     fig.suptitle('Trips vs Time', fontsize=20)
     ax = fig.add_subplot(111)
-    ax.plot_date(*zip(*counts), fmt='r-', aa=True)
+    ax.plot_date(*zip(*counts), fmt='r-', aa=True, xdate=False, ydate=False)
     ax.set_ylim([0, 600000])
     fig.savefig(sys.argv[2])
