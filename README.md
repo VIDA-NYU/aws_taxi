@@ -45,6 +45,7 @@ Instruction
         * Reducer: s3://mda2014/yearplot/reducer.py
         * Input: s3://mda2014/taxi/trip/
         * Output: s3://mda2014/output2
+        * Arguments: -D mapred.reduce.tasks=1
 
     Wait for finish, then download and merge all output into one file called `output.txt`
 
